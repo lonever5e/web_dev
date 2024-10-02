@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.gradient-background {
+    background-color: black;
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 10%;
+	}
+	50% {
+		background-position: 65% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    padding: 2% 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #bef992;
+    height: 70%;
+    align-items: center;
+    padding: 200px 0 200px 0;
+}
+
+.container h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    text-shadow:  #1e5128 5px 0 30px;
+}
+
+.container p{
+    padding: 30px 30px; 
+    font-family: 'Fira Code', sans-serif;
+    border: black dashed 4px;
+    margin: 0 20%;
+}
+
+
+.sections{
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 2px;
+    color: #bef992;
+    text-decoration: none;
+}
+
+.container .sections {
+    font-size: 1.5rem;
+}
+
+.sections:hover{
+    background-color: #1e5128;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.flex-container img {
+    height: 200px;
+    box-shadow: 2.5px 2.5px 10px black;
+    margin-bottom: 10px;
+}
+  
+#contact {
+    margin-bottom: 100px;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2.5px 2.5px 10px black;
+  }
+  
